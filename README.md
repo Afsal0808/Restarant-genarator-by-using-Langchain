@@ -85,14 +85,14 @@ Add your app screenshots here
 
 🌍 Multi-language support
 
-🧑‍🍳 Custom chef/restaurant themes
+##🧑‍🍳 Custom chef/restaurant themes
 
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome!
 Feel free to fork this repo and submit a pull request.
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+##👨‍💻 Author
 Afsal
