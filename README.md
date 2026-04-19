@@ -56,14 +56,6 @@ Culinary-Compass/
 │── requirements.txt
 │── README.md
 
-⚙️ Setup & Installation
-1️⃣ Clone the repository
-git clone https://github.com/your-username/culinary-compass.git
-cd culinary-compass
-2️⃣ Install dependencies
-pip install -r requirements.txt
-3️⃣ Add API Key
-Create a .env file and add:
 
 groq_api_key=YOUR_API_KEY
 4️⃣ Run the app
