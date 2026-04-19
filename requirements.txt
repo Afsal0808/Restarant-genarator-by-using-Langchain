@@ -1,4 +1,5 @@
-openai
-langchain
-google-search-results
 streamlit
+langchain
+openai
+python-dotenv
+langchain-groq
