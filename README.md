@@ -1,70 +1,153 @@
-# 🍽️ Culinary Compass – AI Restaurant Name & Menu Generator
+# Restaurant Name Generator using LangChain
 
-## 📌 Overview
-Culinary Compass is an AI-powered web application that generates **unique restaurant names and menu items** based on selected cuisine.  
-It leverages **Large Language Models (LLMs)** with LangChain to create creative, realistic, and high-quality outputs.
+An AI-powered web application that generates creative restaurant names and suggested menu items based on selected cuisine using LangChain and OpenAI.
 
 ---
 
-## 🚀 Features
--  Generate **fancy restaurant names**
--  AI-generated **menu items**
--  Multiple cuisines support (Indian, Italian, Mexican, Arabic, American)
--  Premium UI using **Streamlit + Custom CSS**
--  Fast and interactive user experience
--  Powered by **LLM (Groq - LLaMA 3.3)**
+## Overview
 
----
+This project leverages Large Language Models (LLMs) to assist entrepreneurs, developers, and creatives in generating:
 
-## 🧠 Tech Stack
+- Unique restaurant names
+- Relevant menu suggestions
+- Cuisine-based branding ideas
 
-### 🔹 Frontend
-- Streamlit
-- HTML/CSS (custom styling)
-
-### 🔹 Backend
-- Python
+Built with:
 - LangChain
-
-### 🔹 AI Model
-- Groq API (LLaMA 3.3 70B model)
-
-### 🔹 Environment
-- Python 3.x
-- dotenv
+- OpenAI API
+- Streamlit (UI)
 
 ---
 
-## 📂 Project Structure
-project/
+## Features
+
+- Generate restaurant names based on cuisine
+- Suggest menu items automatically
+- Fast and interactive UI with Streamlit
+- Uses LLMs for intelligent text generation
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|-----------|--------|
+| Python | Core Programming |
+| LangChain | LLM Orchestration |
+| OpenAI API | Text Generation |
+| Streamlit | Web Interface |
+
+---
+
+## Project Structure
+
+```
+.
+├── RestaurantNameGenerator/
+│   ├── main.py              # Streamlit App
+│   ├── langchain_helper.py # LLM logic
+│   └── secret_key.py       # API keys (not for production)
 │
-├── main.py # Streamlit UI
-├── langchain_helper.py # AI logic (LLM chains)
-├── .env # API keys (not shared)
-├── requirements.txt # Dependencies
+├── langchain_crashcourse.ipynb  # Learning notebook
+├── requirements.txt             # Dependencies
 └── README.md
+```
 
-📊 Example Output
+---
 
-Input: Italian Cuisine
-Output:
+## Installation
 
-Restaurant Name: La Bella Tavola
-Menu: Pasta, Risotto, Pizza, Tiramisu
+1. Clone the repository:
 
-### Future Enhancements
-🎤 Voice input support
-🌐 Deployment (Streamlit Cloud / AWS)
-🧠 Personalized recommendations
-📊 Analytics dashboard
-🍽️ Full restaurant branding kit
+```bash
+git clone https://github.com/your-username/restaurant-name-generator.git
+cd restaurant-name-generator
+```
 
-### Security Note
-Do not share .env file publicly
-Keep API keys secure
+2. Install dependencies:
 
-secure
+```bash
+pip install -r requirements.txt
+```
 
-### Author
+---
+
+## Setup API Keys
+
+Update your API keys inside:
+
+```python
+# secret_key.py
+openapi_key = "YOUR_OPENAI_API_KEY"
+serpapi_key = "YOUR_SERPAPI_KEY"
+```
+
+Important:
+Do not upload API keys to GitHub. Use environment variables in production.
+
+---
+
+## Run the Application
+
+```bash
+streamlit run RestaurantNameGenerator/main.py
+```
+
+---
+
+## Deployment
+
+You can deploy this app using:
+
+- Streamlit Cloud
+- Railway
+- Render
+
+---
+
+## Demo
+
+Add screenshots or demo link here.
+
+---
+
+## Learning Resource
+
+This project is inspired by a LangChain tutorial and includes a notebook for learning:
+
+- langchain_crashcourse.ipynb
+
+---
+
+## Future Improvements
+
+- Add logo generation
+- Multi-language support
+- Save generated results
+- User authentication
+
+---
+
+## Contributing
+
+Contributions are welcome.
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## Author
+
 Afsal
-AI/ML Enthusiast
+GitHub: https://github.com/Afsal0808
+
+---
+
+## Support
+
+If you find this project useful, consider giving it a star on G
