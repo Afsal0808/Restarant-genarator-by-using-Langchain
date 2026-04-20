@@ -2,7 +2,6 @@
 
 An AI-powered web application that generates creative restaurant names and suggested menu items based on selected cuisine using LangChain and OpenAI.
 
----
 
 ## Overview
 
@@ -17,7 +16,6 @@ Built with:
 - OpenAI API
 - Streamlit (UI)
 
----
 
 ## Features
 
@@ -26,7 +24,6 @@ Built with:
 - Fast and interactive UI with Streamlit
 - Uses LLMs for intelligent text generation
 
----
 
 ## Tech Stack
 
@@ -36,8 +33,6 @@ Built with:
 | LangChain | LLM Orchestration |
 | OpenAI API | Text Generation |
 | Streamlit | Web Interface |
-
----
 
 ## Project Structure
 
@@ -53,7 +48,6 @@ Built with:
 └── README.md
 ```
 
----
 
 ## Installation
 
@@ -85,7 +79,6 @@ serpapi_key = "YOUR_SERPAPI_KEY"
 Important:
 Do not upload API keys to GitHub. Use environment variables in production.
 
----
 
 ## Run the Application
 
@@ -93,7 +86,6 @@ Do not upload API keys to GitHub. Use environment variables in production.
 streamlit run RestaurantNameGenerator/main.py
 ```
 
----
 
 ## Deployment
 
@@ -103,13 +95,11 @@ You can deploy this app using:
 - Railway
 - Render
 
----
 
 ## Demo
 
 Add screenshots or demo link here.
 
----
 
 ## Learning Resource
 
@@ -117,7 +107,6 @@ This project is inspired by a LangChain tutorial and includes a notebook for lea
 
 - langchain_crashcourse.ipynb
 
----
 
 ## Future Improvements
 
@@ -126,28 +115,5 @@ This project is inspired by a LangChain tutorial and includes a notebook for lea
 - Save generated results
 - User authentication
 
----
 
-## Contributing
 
-Contributions are welcome.
-Feel free to fork the repository and submit a pull request.
-
----
-
-## License
-
-This project is open-source and available under the MIT License.
-
----
-
-## Author
-
-Afsal
-GitHub: https://github.com/Afsal0808
-
----
-
-## Support
-
-If you find this project useful, consider giving it a star on G
