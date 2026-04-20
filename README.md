@@ -1,98 +1,70 @@
-# Restarant-genarator-by-using-Langchain
+# 🍽️ Culinary Compass – AI Restaurant Name & Menu Generator
 
-🍽️ Culinary Compass – AI Restaurant Generator
-🌟 Overview
-Culinary Compass is a Generative AI web application that creates unique restaurant names and menu items based on user-selected cuisines.
-It leverages LangChain + Groq LLM (LLaMA 3) to generate creative, high-quality outputs in real time.
+## 📌 Overview
+Culinary Compass is an AI-powered web application that generates **unique restaurant names and menu items** based on selected cuisine.  
+It leverages **Large Language Models (LLMs)** with LangChain to create creative, realistic, and high-quality outputs.
 
-This project showcases the practical use of LLMs, prompt engineering, and AI-powered content generation.
+---
 
-🚀 Features
-🎯 AI-generated fancy restaurant names
+## 🚀 Features
+-  Generate **fancy restaurant names**
+-  AI-generated **menu items**
+-  Multiple cuisines support (Indian, Italian, Mexican, Arabic, American)
+-  Premium UI using **Streamlit + Custom CSS**
+-  Fast and interactive user experience
+-  Powered by **LLM (Groq - LLaMA 3.3)**
 
-🍜 Dynamic menu item generation
+---
 
-🌍 Multiple cuisine support (Indian, Italian, Mexican, etc.)
+## 🧠 Tech Stack
 
-⚡ Fast responses using Groq (LLaMA 3.3-70B)
+### 🔹 Frontend
+- Streamlit
+- HTML/CSS (custom styling)
 
-🎨 Modern dark-themed Streamlit UI
+### 🔹 Backend
+- Python
+- LangChain
 
-🧾 Structured and visually rich menu display
+### 🔹 AI Model
+- Groq API (LLaMA 3.3 70B model)
 
-🔗 LangChain prompt chaining for better results
+### 🔹 Environment
+- Python 3.x
+- dotenv
 
-🧠 How It Works
-User selects a cuisine
+---
 
-AI generates a restaurant name
+## 📂 Project Structure
+project/
+│
+├── main.py # Streamlit UI
+├── langchain_helper.py # AI logic (LLM chains)
+├── .env # API keys (not shared)
+├── requirements.txt # Dependencies
+└── README.md
 
-Based on the name, AI generates menu items
+📊 Example Output
 
-Results are displayed in a styled UI
+Input: Italian Cuisine
+Output:
 
-👉 Core logic implemented using LangChain:
+Restaurant Name: La Bella Tavola
+Menu: Pasta, Risotto, Pizza, Tiramisu
 
-Prompt 1 → Generate Restaurant Name
+### Future Enhancements
+🎤 Voice input support
+🌐 Deployment (Streamlit Cloud / AWS)
+🧠 Personalized recommendations
+📊 Analytics dashboard
+🍽️ Full restaurant branding kit
 
-Prompt 2 → Generate Menu Items
+### Security Note
+Do not share .env file publicly
+Keep API keys secure
 
-🛠️ Tech Stack
-Frontend: Streamlit
+secure
 
-Backend: Python
-
-AI Model: Groq (LLaMA 3.3 70B)
-
-Framework: LangChain
-
-Other Tools: dotenv
-
-📂 Project Structure
-Culinary-Compass/
-│── main.py                 # Streamlit UI
-│── langchain_helper.py    # AI logic (LangChain + LLM)
-│── .env                   # API Key (Groq)
-│── requirements.txt
-│── README.md
-
-
-groq_api_key=YOUR_API_KEY
-4️⃣ Run the app
-streamlit run main.py
-🖥️ Usage
-Select your favorite cuisine 🍜
-
-Click Generate Restaurant
-
-Get:
-
-🍽️ Unique restaurant name
-
-📋 AI-generated menu
-
-🎨 Beautiful UI display
-
-📸 Screenshots (Optional)
-Add your app screenshots here
-
-🎯 Future Improvements
-🌐 Deploy on Streamlit Cloud / AWS
-
-🗣️ Add voice input
-
-📱 Mobile optimization
-
-🌍 Multi-language support
-
-🧑‍🍳 Custom chef/restaurant themes
-
-🤝 Contributing
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
-
-📜 License
-This project is licensed under the MIT License.
-
-👨‍💻 Author
+### Author
 Afsal
+AI/ML Enthusiast
